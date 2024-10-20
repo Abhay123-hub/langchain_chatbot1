@@ -5,7 +5,7 @@ from langserve import add_routes
 import uvicorn
 import os
 from langchain_community.llms import Ollama
-os.environ["OPENAI_API_KEY"] = 
+os.environ["OPENAI_API_KEY"] = "open_api_key"
 
 app = FastAPI(
        title = "langchain server",
